@@ -1,6 +1,6 @@
 ## Ejemplo básico de Tienda en Linea con PlaceToPay
 
-#Configuración
+# Configuración
 
 Recuerde cargar sus variables de entorno en la raíz del proyecto sin acceso por apache.
 Las variables deben llevar estos nombres:
