@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-date_default_timezone_set('America/Bogota'); #Línea agregada
+date_default_timezone_set('America/Bogota'); #Línea agregada para zona horaria
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
