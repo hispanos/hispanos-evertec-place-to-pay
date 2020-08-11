@@ -4,7 +4,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 class Mproducts extends CI_Model {
 
 	//Función para consultar la lista de productos
-	public function list_products()
+	public function listProducts()
 	{
 		$this->db->select('id_product,name_product,price,description,image');
 		$this->db->from('products');

@@ -10,7 +10,7 @@
                       Por favor, completa los datos para proceder con la compra.
                     </div>
                     <!-- Formulario de captura de datos -->
-                    <form>
+                    <form id="form_customer_data" method="POST">
 
                         <div class="form-group"> <!-- Nombre -->
                             <label for="customer_name" class="control-label">Nombre Completo</label>
@@ -29,7 +29,7 @@
                         
                     </form>
                     <div class="form-group"> <!-- Botón enviar -->
-                        <button type="submit" class="btn buy-btn" onclick="submit_data()">Confirmar!</button>
+                        <button type="submit" class="btn buy-btn" onclick="submitData()">Confirmar!</button>
                     </div>
                 </div>
             </div>

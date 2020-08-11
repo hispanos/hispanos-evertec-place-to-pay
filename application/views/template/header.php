@@ -15,9 +15,10 @@
     <header>
         <div class="container">
             <div class="brand-sec">
-                <img src="<?php echo base_url(); ?>assets/images/logo.png" alt="logo">
+                <a class="nav-link" href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="logo"></a>
             </div>
             <div class="content">
+              <!-- Muestro el menu de navegación -->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
@@ -36,3 +37,8 @@
             </div>
         </div>
     </header>
+
+    <!-- Paso la base url a variable Javascript -->
+    <script type="text/javascript">
+      var baseurl = "<?php echo base_url();?>";
+    </script>
