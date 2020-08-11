@@ -11,6 +11,7 @@ class Morders extends CI_Model {
 		return $res;
 	}
 
+	//Función para ver la orden por id
 	public function viewOrder($id_order)
 	{
 		$this->db->where('id', $id_order);

@@ -11,11 +11,13 @@ class MordersDetails extends CI_Model {
 		return $res;
 	}
 
+	//Función para ver los detalles de la orden por id
 	public function viewDetails($id_order)
 	{
 		$this->db->where('id_order', $id_order);
-		$query = $this->db->get('order_details');
-		return $query->row(); //Devuelvo toda la consulta
+		$this->db->join('products p','o.id_product = p.id_product');
+		$query = $this->db->get('order_details o');
+		return $query->result(); //Devuelvo toda la consulta
 	}
     
 }
