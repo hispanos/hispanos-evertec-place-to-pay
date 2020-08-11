@@ -1,5 +1,6 @@
 <?php 
 if (!defined('BASEPATH')) exit('No direct script access allowed');
+require APPPATH . ('../vendor/autoload.php'); //Cargo autolad
 
 class Buy extends CI_Controller {
 
@@ -13,6 +14,7 @@ class Buy extends CI_Controller {
 
     public function receive($id_order='')
     {
-    	# code...
+    	$dotenv = Dotenv\Dotenv::createImmutable('../'); //Accedo a las variables de entorno
+		$dotenv->load();
     }
 }
