@@ -42,3 +42,8 @@ submitData = function () {
 		mensaje('<strong>Oops!</strong>','No puedes dejar datos vacíos.','warning');
 	}
 }
+
+//Función para ejecutar la compra 
+buy = function(id_order) {
+	window.location.href=baseurl+'buy/receive/'+id_order;
+}
