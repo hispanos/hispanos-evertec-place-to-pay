@@ -18,5 +18,11 @@ class Morders extends CI_Model {
 		$query = $this->db->get('orders');
 		return $query->row(); //Devuelvo solo una fila
 	}
+
+	public function updatedOrder($id_order,$data)
+	{
+		$this->db->where('id', $id_order);
+  		$this->db->update('orders', $data);
+	}
     
 }
