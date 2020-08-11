@@ -1,3 +1,8 @@
+	<footer>
+        <div class="container">
+            <h5>2020. Para Prueba Evertec. <a href="https://github.com/hispanos/">Por Mailer Martinez Ballesta</a></h5>
+        </div>
+    </footer>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js">
     </script>

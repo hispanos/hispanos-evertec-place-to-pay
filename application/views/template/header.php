@@ -26,10 +26,7 @@
                         <a class="nav-link" href="<?php echo base_url(); ?>">Inicio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url(); ?>">Consultar</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url(); ?>">Listado</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>query">Listado</a>
                       </li>
                     </ul>
                   </div>

@@ -24,5 +24,12 @@ class Morders extends CI_Model {
 		$this->db->where('id', $id_order);
   		$this->db->update('orders', $data);
 	}
+
+	//Función para ver toodas las órdenes
+	public function listOrders()
+	{
+		$query = $this->db->get('orders');
+		return $query->result(); //Devuelvo todos los datos
+	}
     
 }
